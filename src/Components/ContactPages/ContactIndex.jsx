@@ -5,6 +5,7 @@ import RemoveAllContact from "./RemoveAllContact";
 import AddContact from "./AddContact";
 import FavoriteContacts from "./FavoriteContacts";
 import GeneralContacts from "./GeneralContacts";
+import Footer from "../Layout/Footer";
 
 class ContactIndex extends React.Component {
   render() {
@@ -29,6 +30,7 @@ class ContactIndex extends React.Component {
             <GeneralContacts />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
