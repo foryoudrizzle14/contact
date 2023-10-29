@@ -1,9 +1,9 @@
-import react from "react";
-
-const RemoveAllContact = () => {
+const RemoveAllContact = props => {
   return (
     <div>
-      <button className="btn btn-danger form-control">Remove All</button>
+      <button className="btn btn-danger form-control" onClick={() => props.handleRemoveAllContact()}>
+        Remove All
+      </button>
     </div>
   );
 };
